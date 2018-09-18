@@ -1,4 +1,5 @@
 import { Component, EventListener, GondelBaseComponent, triggerPublicEvent } from '@gondel/core';
+import './awesome-component.css';
 
 @Component('AwesomeComponent')
 export default class AwesomeComponent extends GondelBaseComponent {

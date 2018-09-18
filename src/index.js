@@ -1,12 +1,10 @@
 import { startComponents } from '@gondel/core';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import './components/awesome-component';
+import './mountains.css';
 import App from './app.jsx';
 
-import './mountains.css';
+// Import the UI Component
+import './components/awesome-component';
 
-console.log('Starting components...');
-startComponents();
-
-ReactDOM.render(React.createElement(App, null), document.getElementById('react-root'));
+// ReactDOM.render(React.createElement(App, null), document.getElementById('react-root'));

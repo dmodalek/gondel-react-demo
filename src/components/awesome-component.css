@@ -1,13 +1,83 @@
 .m-awesome-component {
-  display: inline-block;
-  font-size: 100px;
-  line-height: 200px;
-  margin-left: 100px;
+  margin: auto;
+  position: relative;
+  width: 1px;
+}
+
+.m-awesome-component__gondel {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  font-size: 100px;
+  position: absolute;
+  z-index: 10000;
+  left: 28px;
+  top: 252px;
+  text-align: center;
+  display: block;
+}
+
+.m-awesome-component__lines {
+  width: 2000px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  position: absolute;
+  z-index: 10000;
+  left: -1000px;
+  top: 261px;
+  transform: rotate(8deg);
 }
 
 .m-awesome-component:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  animation: wiggle 0.5s ease-in-out infinite;
+  z-index: 10000;
+}
+
+@-ms-keyframes wiggle {
+  0% {
+    -ms-transform: rotate(2deg);
+  }
+  50% {
+    -ms-transform: rotate(-2deg);
+  }
+  100% {
+    -ms-transform: rotate(2deg);
+  }
+}
+
+@-moz-keyframes wiggle {
+  0% {
+    -moz-transform: rotate(2deg);
+  }
+  50% {
+    -moz-transform: rotate(-2deg);
+  }
+  100% {
+    -moz-transform: rotate(2deg);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(2deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
 }
