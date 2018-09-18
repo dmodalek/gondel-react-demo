@@ -1,0 +1,13 @@
+.m-awesome-component {
+  display: inline-block;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: 100px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.m-awesome-component:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
