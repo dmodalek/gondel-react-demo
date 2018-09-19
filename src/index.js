@@ -9,9 +9,9 @@ import './components/ui-component';
 // Import React Component JavaScript
 import ReactComponent from './components/react-component.jsx';
 
-// Import React Widget JavaScript
-import ReactWidget from './components/react-widget.jsx';
-
 // Render the React Component
 const domNode = document.getElementById('react-component');
 domNode && ReactDOM.render(React.createElement(ReactComponent, null), document.getElementById('react-component'));
+
+// Import React Widget JavaScript
+import ReactWidget from './components/react-widget.jsx';

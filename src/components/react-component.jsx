@@ -17,7 +17,6 @@ export default class ReactComponent extends React.Component {
 
   onUIMouseOver(e) {
     console.log('🚠 React: Mouseover received from UI');
-    // console.log('🚠 React: Mouseover received from UI', e.data);
   }
 
   handleClick = () => {
