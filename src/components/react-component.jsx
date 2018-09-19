@@ -12,6 +12,7 @@ export default class ReactComponent extends React.Component {
   }
 
   componentWillUnmount() {
+    this.gondelComponent.removeEventListener('gUIMouseOver');
     stopComponents(this.gondelComponent);
   }
 
