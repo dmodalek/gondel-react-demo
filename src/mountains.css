@@ -42,7 +42,9 @@ body {
   bottom: 110%;
   left: 250px;
   border-radius: 50%;
-  box-shadow: -100px 50px 0 4em #e4eff3, -250px 100px 0 2em #e4eff3, 75px 100px 0 5em #e4eff3, 250px 25px 0 4em #e4eff3, 370px 25px 0 0 #e4eff3, 400px 125px 0 5em #e4eff3, 500px 50px 0 2em #e4eff3, 590px 75px 0 0 #e4eff3, 690px 75px 0 3em #e4eff3;
+  box-shadow: -100px 50px 0 4em #e4eff3, -250px 100px 0 2em #e4eff3, 75px 100px 0 5em #e4eff3, 250px 25px 0 4em #e4eff3,
+    370px 25px 0 0 #e4eff3, 400px 125px 0 5em #e4eff3, 500px 50px 0 2em #e4eff3, 590px 75px 0 0 #e4eff3,
+    690px 75px 0 3em #e4eff3;
 }
 
 .peak {
@@ -92,8 +94,7 @@ body {
 }
 
 .cloud {
-  -webkit-animation: move-cloud 60s linear infinite;
-  animation: move-cloud 60s linear infinite;
+  animation: move-cloud 40s linear infinite;
   animation-timing-function: ease-in-out;
   font-size: 1.25em;
   position: absolute;
@@ -170,7 +171,8 @@ body {
 }
 
 .cloud-dark.cloud-big::before {
-  box-shadow: -1.5em -0.2em 0 0.5em currentColor, -6em -0.5em 0 0.75em currentColor, -8.75em -1.15em 0 1.5em currentColor;
+  box-shadow: -1.5em -0.2em 0 0.5em currentColor, -6em -0.5em 0 0.75em currentColor,
+    -8.75em -1.15em 0 1.5em currentColor;
 }
 
 .cloud-light {
@@ -182,7 +184,8 @@ body {
 }
 
 .cloud-light.cloud-big::before {
-  box-shadow: -1.5em -0.2em 0 0.5em currentColor, -6em -0.5em 0 0.75em currentColor, -8.75em -1.15em 0 1.5em currentColor;
+  box-shadow: -1.5em -0.2em 0 0.5em currentColor, -6em -0.5em 0 0.75em currentColor,
+    -8.75em -1.15em 0 1.5em currentColor;
 }
 
 .hill {

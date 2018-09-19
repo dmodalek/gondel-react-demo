@@ -1,0 +1,17 @@
+.m-react-widget {
+  font-size: 100px;
+  position: relative;
+  top: 60px;
+  left: 220px;
+  animation: move-sun 2s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes move-sun {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-124%);
+  }
+}

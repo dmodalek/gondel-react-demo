@@ -5,17 +5,17 @@ import './ui-component.css';
 export default class UIComponent extends GondelBaseComponent {
   start() {
     this.callback = null;
-    console.log('UI: Component started...');
+    console.log('🚡 UI: Component started...');
     document.documentElement.addEventListener('gMouseOver', this.handleGlobalEvent);
   }
 
   onReactButtonClick() {
-    console.log('UI: Button clicked received from React');
+    console.log('🚡 UI: Button clicked received from React');
   }
 
   @EventListener('mouseover')
   _handleClick = event => {
-    console.log('UI: mouseover');
+    console.log('🚡 UI: mouseover');
 
     triggerPublicEvent('gMouseOver', this);
   };

@@ -619,6 +619,10 @@
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@gondel/core/-/core-0.0.4.tgz#07eb9372ec2d36229128341f190a8665058a704b"
 
+"@gondel/plugin-react@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@gondel/plugin-react/-/plugin-react-0.0.4.tgz#32bb2a299744c254027b73538069f843abffed40"
+
 "@webassemblyjs/ast@1.7.6":
   version "1.7.6"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.6.tgz#3ef8c45b3e5e943a153a05281317474fef63e21e"

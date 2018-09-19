@@ -27,6 +27,7 @@
     "webpack-dev-server": "3.1.8"
   },
   "dependencies": {
-    "@gondel/core": "0.0.4"
+    "@gondel/core": "0.0.4",
+    "@gondel/plugin-react": "0.0.4"
   }
 }
