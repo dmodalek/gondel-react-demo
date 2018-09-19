@@ -1,7 +1,7 @@
 .m-react-widget {
   font-size: 100px;
   position: relative;
-  top: 60px;
+  top: 54px;
   left: 220px;
   animation: move-sun 2s ease-out;
   animation-fill-mode: forwards;
@@ -13,5 +13,22 @@
   }
   100% {
     transform: translateY(-124%);
+  }
+}
+
+.m-react-widget__icon {
+  display: inline-block;
+  animation: rotate-sun 6s linear infinite;
+  width: 96px;
+  height: 116px;
+  padding: 0 10px;
+}
+
+@keyframes rotate-sun {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

@@ -1,7 +1,6 @@
 import { startComponents, stopComponents, getComponentByDomNode } from '@gondel/core';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-
 import './ui-component';
 import './react-component.css';
 

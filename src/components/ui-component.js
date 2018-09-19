@@ -4,7 +4,6 @@ import './ui-component.css';
 @Component('UIComponent')
 export default class UIComponent extends GondelBaseComponent {
   start() {
-    this.callback = null;
     console.log('🚡 UI: Component started...');
     document.documentElement.addEventListener('gMouseOver', this.handleGlobalEvent);
   }
@@ -15,8 +14,7 @@ export default class UIComponent extends GondelBaseComponent {
 
   @EventListener('mouseover')
   _handleClick = event => {
-    console.log('🚡 UI: mouseover');
-
+    console.log('🚡 UI: Mouseover');
     triggerPublicEvent('gMouseOver', this);
   };
 }
