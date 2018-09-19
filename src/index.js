@@ -13,4 +13,5 @@ import ReactComponent from './components/react-component.jsx';
 import ReactWidget from './components/react-widget.jsx';
 
 // Render the React Component
-ReactDOM.render(React.createElement(ReactComponent, null), document.getElementById('react-component'));
+const domNode = document.getElementById('react-component');
+domNode && ReactDOM.render(React.createElement(ReactComponent, null), document.getElementById('react-component'));

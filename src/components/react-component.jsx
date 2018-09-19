@@ -8,7 +8,7 @@ export default class ReactComponent extends React.Component {
   componentDidMount() {
     console.log('🚠 React: Component started');
     startComponents(this.gondelComponent);
-    this.gondelComponent.addEventListener('gMouseOver', this.onUIMouseOver);
+    this.gondelComponent.addEventListener('gUIMouseOver', this.onUIMouseOver);
   }
 
   componentWillUnmount() {

@@ -5,7 +5,6 @@ import './ui-component.css';
 export default class UIComponent extends GondelBaseComponent {
   start() {
     console.log('🚡 UI: Component started...');
-    document.documentElement.addEventListener('gMouseOver', this.handleGlobalEvent);
   }
 
   onReactButtonClick() {
@@ -13,8 +12,8 @@ export default class UIComponent extends GondelBaseComponent {
   }
 
   @EventListener('mouseover')
-  _handleClick = event => {
+  _handleMouseOver = event => {
     console.log('🚡 UI: Mouseover');
-    triggerPublicEvent('gMouseOver', this);
+    triggerPublicEvent('gUIMouseOver', this);
   };
 }
