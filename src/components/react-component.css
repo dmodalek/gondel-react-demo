@@ -1,0 +1,11 @@
+/* Modifier */
+
+.m-ui-component--react {
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+.m-ui-component--react .m-ui-component__lines {
+  top: 174px;
+  transform: rotate(15deg);
+}

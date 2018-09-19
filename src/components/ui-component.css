@@ -1,22 +1,22 @@
-.m-awesome-component {
+.m-ui-component {
   margin: auto;
   position: relative;
   width: 1px;
 }
 
-.m-awesome-component__gondel {
+.m-ui-component__gondel {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   font-size: 100px;
   position: absolute;
   z-index: 10000;
   left: 28px;
-  top: 252px;
+  top: 172px;
   text-align: center;
   display: block;
 }
 
-.m-awesome-component__lines {
+.m-ui-component__lines {
   width: 2000px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -24,11 +24,11 @@
   position: absolute;
   z-index: 10000;
   left: -1000px;
-  top: 261px;
+  top: 181px;
   transform: rotate(8deg);
 }
 
-.m-awesome-component:hover {
+.m-ui-component:hover {
   cursor: pointer;
   animation: wiggle 0.5s ease-in-out infinite;
   z-index: 10000;
